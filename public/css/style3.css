@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#d3d3d3;
+}
+
+.tag{
+    margin-top: 25px;
+    margin-left: 25px;
+    
+    
+}
+
+.button{
+    background-color: #808080;
+    border: none;
+    margin: 50px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    border-radius: 8px;
+    margin-top: 25px;
+    margin-left: 80%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    
+  }
+
+th{
+    font-size: 25px;
+    background-color: #808080;
+}
+  
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+
+  }
+  
+tr:hover {background-color: white;}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+.table{
+    margin-left: auto;
+    margin-right: auto;
+}
+

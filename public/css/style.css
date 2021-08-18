@@ -1,0 +1,467 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#d3d3d3;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    
+}
+
+.title {
+    font-size: 1.5rem;
+    margin-left: 80px;
+}
+
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-right: 80px;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display: block;
+}
+
+.navbar-links li:hover {
+    background-color: #808080;
+}
+
+form{
+    padding: 10px;
+}
+.column{
+    
+    margin-bottom: -130px;
+}
+
+.column2{
+    margin-top: -110px;
+    margin-bottom: -110px;
+}
+
+.column3{
+    margin-top: -110px;
+    margin-bottom: -110px;
+}
+
+.column4{
+    margin-top: -110px;
+    margin-bottom: -110px;
+}
+.column5{
+    margin-top: -110px;
+    margin-bottom: -110px;
+}
+
+.column6{
+    margin-top: -150px;
+    margin-bottom: 28px;
+   
+}
+
+.form {
+    margin: 25px;
+    padding-inline-start: 200px;
+}
+
+.name{
+    padding-inline-start: 450px;
+    margin-top: -10px;
+    padding-bottom: 5rem;
+    
+}
+
+.library {
+    position: relative;
+    left: 60px;
+    top: -22px;
+    border-radius: 6px;
+    padding: 0 10px;
+    font-size: 14px; 
+}
+
+.depertment {
+    position: relative;
+    left: 300px;
+    top: -62px;
+    border-radius: 6px;
+    padding: 0 10px;
+    font-size: 14px; 
+}
+
+.language{
+    position: relative;
+    left: 540px;
+    top: -100px;
+    border-radius: 6px;
+    padding: 0 10px;
+    font-size: 14px; 
+}
+
+.booktype{
+    position: relative;
+    left: 780px;
+    top: -140px;
+    border-radius: 6px;
+    padding: 0 10px;
+    font-size: 14px; 
+}
+
+.booktitle {
+    position: relative;
+    left: 50px;
+    top: -19px;
+    border-radius: 6px;
+    margin: 10px;
+    padding: 0 10px;
+    font-size: 14px; 
+}
+
+.isbn {
+    position: relative;
+    left: 300px;
+    top: -70px;
+    border-radius: 6px;
+    padding: 0 10px;
+    font-size: 14px; 
+}
+
+.authors{
+    position: relative;
+    left: 540px;
+    top: -109px;
+    border-radius: 6px;
+    padding: 0 10px;
+    font-size: 14px; 
+}
+
+.publisher{
+    position: relative;
+    left: 780px;
+    top: -150px;
+    border-radius: 6px;
+    padding: 0 10px;
+    font-size: 14px; 
+}
+
+.publisherdate {
+    position: relative;
+    left: 60px;
+    top: -15px;
+    border-radius: 6px;
+    padding: 0 10px;
+    font-size: 14px; 
+}
+
+.version {
+    position: relative;
+    left: 300px;
+    top: -35px;
+    border-radius: 6px;
+    padding: 0 10px;
+    font-size: 14px; 
+}
+
+.noofpage{
+    position: relative;
+    left: 540px;
+    top: -75px;
+    border-radius: 6px;
+    padding: 0 10px;
+    font-size: 14px; 
+}
+
+.image{
+    position: relative;
+    text-transform: capitalize;
+    font-size: 16px;
+    left: 735px;
+    top: -100px;
+}
+
+.category {
+    position: relative;
+    left: 60px;
+    top: 100px;
+    border-radius: 6px;
+    padding: 0 10px;
+    font-size: 14px; 
+}
+
+.quantity {
+    position: relative;
+    left: 300px;
+    top: 10px;
+    border-radius: 6px;
+    padding: 0 10px;
+    font-size: 14px; 
+}
+
+.price{
+    position: relative;
+    left: 540px;
+    top: -28px;
+    border-radius: 6px;
+    padding: 0 10px;
+    font-size: 14px; 
+}
+
+.condition{
+    position: relative;
+    left: 780px;
+    top: -70px;
+    border-radius: 6px;
+    padding: 0 10px;
+    font-size: 14px; 
+}
+
+
+.location {
+    position: relative;
+    left: 60px;
+    top: -1px;
+    border-radius: 6px;
+    padding: 0 10px;
+    font-size: 14px; 
+}
+
+.supplier{
+    position: relative;
+    left: 300px;
+    top: 50px;
+    border-radius: 6px;
+    padding: 0 10px;
+    font-size: 14px; 
+}
+
+.daterecived {
+    position: relative;
+    left: 540px;
+    top: 10px;
+    border-radius: 6px;
+    padding: 0 10px;
+    font-size: 14px; 
+}
+
+.image2{
+    position: relative;
+    left: 550px;
+    text-transform: capitalize;
+    top: 10px;
+    border-radius: 6px;
+    padding: 0 10px;
+    font-size: 17px; 
+}
+
+.description{
+    position: relative;
+    left: 60px;
+    top: 170px;
+    border-radius: 6px;
+    padding: 0 10px;
+    font-size: 14px; 
+    width: 74%;
+}
+
+.librarylabel {
+    position: relative;
+    text-transform: capitalize;
+    font-size: 16px;
+    left: 60px;
+    top: -25px;
+}
+
+.depertmentlebel {
+    position: relative;
+    text-transform: capitalize;
+    font-size: 16px;
+    left: 300px;
+    top: -65px;
+}
+
+.languagelabel{
+    position: relative;
+    text-transform: capitalize;
+    font-size: 16px;
+    left: 540px;
+    top: -105px;
+}
+
+.booktypelebel{
+    position: relative;
+    text-transform: capitalize;
+    font-size: 16px;
+    left: 780px;
+    top: -145px;
+}
+
+.booktitlelabel{
+    position: relative;
+    text-transform: capitalize;
+    font-size: 16px;
+    left: 60px;
+    top: -10px;
+}
+
+.isbnlebel {
+    position: relative;
+    text-transform: capitalize;
+    font-size: 16px;
+    left: 300px;
+    top: -70px;
+}
+
+.authorslabel{
+    position: relative;
+    text-transform: capitalize;
+    font-size: 16px;
+    left: 540px;
+    top: -110px;
+}
+
+.publisherlebel{
+    position: relative;
+    text-transform: capitalize;
+    font-size: 16px;
+    left: 780px;
+    top: -150px;
+}
+
+.publisherdatelabel{
+    position: relative;
+    text-transform: capitalize;
+    font-size: 16px;
+    left: 60px;
+    top: -15px;
+}
+
+.versionlebel {
+    position: relative;
+    text-transform: capitalize;
+    font-size: 16px;
+    left: 130px;
+    top: -30px;
+}
+
+.noofpagelabel{
+    position: relative;
+    text-transform: capitalize;
+    font-size: 16px;
+    left: 540px;
+    top: -75px;
+}
+
+
+
+.categorylabel{
+    position: relative;
+    text-transform: capitalize;
+    font-size: 16px;
+    left: 60px;
+    top: 26px;
+}
+
+.quantitylabel {
+    position: relative;
+    text-transform: capitalize;
+    font-size: 16px;
+    left: 100px;
+    top: 10px;
+}
+
+.pricelabel{
+    position: relative;
+    text-transform: capitalize;
+    font-size: 16px;
+    left: 545px;
+    top: -28px;
+}
+.imagelabel{
+    position: relative;
+    text-transform: capitalize;
+    font-size: 16px;
+    left: 780px;
+    top: -125px;
+}
+
+
+.conditionlabel{
+    position: relative;
+    text-transform: capitalize;
+    font-size: 16px;
+    left: 780px;
+    top: -70px;
+}
+
+.locationlabel{
+    position: relative;
+    text-transform: capitalize;
+    font-size: 16px;
+    left: 60px;
+    top: 70px;
+}
+
+.supplierlabel {
+    position: relative;
+    text-transform: capitalize;
+    font-size: 16px;
+    left: 100px;
+    top: 50px;
+}
+
+.daterecivedlabel{
+    position: relative;
+    text-transform: capitalize;
+    font-size: 16px;
+    left: 545px;
+    top: 10px;
+}
+
+.ebooklabel{
+    position: relative;
+    text-transform: capitalize;
+    font-size: 16px;
+    left: 613px;
+    top: -10px;
+}
+
+.descriptionlabel {
+    position: relative;
+    text-transform: capitalize;
+    font-size: 16px;
+    left: 62px;
+    top: 170px;
+}
+
+
+
+.button{
+    background-color: #808080;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    display: flex;;
+    font-size: 16px;
+    border-radius: 8px;
+    left: 72%;
+    top: 80%
+}
